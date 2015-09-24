@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>toDo Demo</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<header>
+			<div class="divs">
+				<h1>toDo List</h1>
+				<h2>Let's make a list</h2>
+				<div id="div_button">
+					<input class="cb" type="checkbox" id="chores" onchange="check_box_change(this)">Chores List
+					<input class="cb" type="checkbox" id="grocery" onchange="check_box_change(this)">Grocery List
+					<input class="cb" type="checkbox" id="want" onchange="check_box_change(this)">Want List
+				</div>
+				<input type="text" id="input_box">
+				<div>
+					<button id="submit">Submit</button>
+					<button id="delete">Delete</button>
+				</div>
+			</div>
+			<div class="divs">
+				<h2>Chores List</h2>
+				<ul id="chores_list"></ul>
+			</div>
+			<div class="divs">
+				<h2>Grocery List</h2>
+				<ul id="grocery_list"></ul>
+			</div>
+			<div class="divs">
+				<h2>Want List</h2>
+				<ul id="want_list"></ul>
+			</div>
+		</header>
+
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

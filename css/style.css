@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+	text-align: center;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1, h2, li {
+	color: white;
+}
+
+h1 {
+	font-family: "righteous";
+	letter-spacing: 3px;
+	font-size: 38px;
+}
+
+h2, button, li, input {
+	font-family: "dosis";
+}
+
+h2 {
+	letter-spacing: 1px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	font-size: 19px;
+	box-shadow: 0 0 4px white;
+	margin: 8px auto;
+	padding: 4px 0;
+	width: 90%;
+	letter-spacing: 1px;
+	transition: .3s ease-out;
+	height: 23px;
+}
+
+li:hover {
+	background-color: #5C97B7;
+	cursor: pointer;
+}
+
+.divs {
+	width: 50%;
+	height:50vh;
+}
+
+.divs:nth-of-type(1) {
+	background-color: #5C97B7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.divs:nth-of-type(2) {
+	background-color: #C13A22;
+}
+
+.divs:nth-of-type(3) {
+	background-color: #29292B;
+}
+
+.divs:nth-of-type(4) {
+	background-color: #4F8B60;
+}
+
+#div_button {
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+	width: 320px;
+	justify-content: space-between;
+}
+
+#div_button input {
+
+}
+
+#input_box {
+	height: 27px;
+	width: 320px;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 12px;
+}
+
+button {
+	padding: 3px 8px;
+	font-size: 16px;
+	margin: 14px 5px 0;
+	font-weight: 900;
+	width: 155px;
+	letter-spacing: 1px;
+}
+
+button:hover {
+	cursor: pointer;
+}
